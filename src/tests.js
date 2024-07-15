@@ -65,7 +65,7 @@ function runTest(options) {
 
     const decodedString = serializer.deserialize(encodedString);
     
-    console.log(`    Is decoded array mathes original: ${checkArraysMatches(testArray, decodedString)}`)
+    console.log(`    Is decoded array matches original: ${checkArraysMatches(testArray, decodedString)}`)
 }
 
 function runDefaultTests() {
