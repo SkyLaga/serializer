@@ -1,0 +1,10 @@
+{
+  "name": "serializer",
+  "version": "0.0.1",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "test": "node src/tests.js",
+    "test:custom": "node src/tests.js length=100 minVal=1 maxVal=9"
+  }
+}
